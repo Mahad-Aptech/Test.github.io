@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      @font-face {
+        font-family: title;
+        src: url(Modern\ Age.ttf);
+      }
+      @font-face {
+        font-family: body;
+        src: url(modern\ M.ttf);
+      }
+      body {
+        background-image: url(ezgif.com-webp-to-jpg.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      nav > h2 {
+        color: white;
+        font-family: Title;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        display: inline-block;
+      }
+      .cn {
+        color: white;
+        border: none;
+        background-color: rgb(255, 255, 255, 0);
+        cursor: pointer;
+        display: inline-flex;
+        margin-left: 55px;
+        font-size: 1.2em;
+      }
+
+      #hm {
+        border-left: 55px;
+      }
+      #lg {
+        background-color: white;
+        color: black;
+        font-family: title;
+        height: 35px;
+        width: 75px;
+        border: none;
+        border-radius: 5px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-left: 125px;
+      }
+      #rg {
+        background-color: white;
+        color: black;
+        font-family: title;
+        height: 35px;
+        width: 75px;
+        border: none;
+        border-radius: 5px;
+        font-weight: 500;
+        cursor: pointer;
+        margin: 20px;
+      }
+      #lg:hover {
+        color: white;
+        background-color: rgb(233, 143, 69);
+        transition: 0.5s;
+      }
+      #rg:hover {
+        color: white;
+        background-color: rgb(233, 143, 69);
+        transition: 0.5s;
+      }
+      #head {
+        color: white;
+        font-family: title;
+        margin-left: 45px;
+        font-weight: bolder;
+        font-size: 65px;
+      }
+      #body {
+        color: white;
+        text-align: justify;
+        font-family: body;
+        font-weight: 100;
+        font-size: 20px;
+        margin-left: 45px;
+      }
+      #fn {
+        color: black;
+        background-color: white;
+        height: 55px;
+        width: 200px;
+        border: none;
+        border-radius: 25px;
+        font-family: title;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 45px;
+        cursor: pointer;
+      }
+      #fn:hover {
+        color: white;
+        background-color: rgb(233, 143, 69);
+        transition: 0.5s;
+      }
+
+      .footer {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: gray;
+        z-index: 1000;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <h2>STRIKE GAMEZ</h2>
+
+        <button class="cn" id="hm">Home</button>
+        <button class="cn">About</button>
+        <button class="cn">Services</button>
+        <button class="cn">Contact</button>
+
+        <a href="login.html"><button id="lg" class="bt">Login</button></a>
+        <a href="login.html"><button id="rg" class="bt">Register</button></a>
+      </nav>
+    </div>
+
+    <div class="text">
+      <h1 id="head">WELCOME,<br />TO STRIKE GAMES</h1>
+      <pre id="body">
+GET READY TO PLAY THE MOST HIGHLY ANTICIPATED 
+FPS GAME OF ALL TIME WITH THE INDUSTRY LEADING 
+TECHNOLOGY 
+        </pre
+      >
+    </div>
+    <a href="login.html"><button id="fn">JOIN WAITLIST</button></a>
+    <footer>
+      <p>&copy; Strike Games | All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
